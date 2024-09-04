@@ -1,0 +1,68 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --start-paused -d RZ8T21RF6HT --devtools-server-address http://127.0.0.1:9101/ --target /Users/mobilityintelligencesoftwares/Downloads/tyt_bidding_19/Taxi_user/flutter_user/lib/main.dart
+
+## exception
+
+HttpException: HttpException: Connection closed before full header was received, uri = http://127.0.0.1:52388/SGkU_J_5-VE=/ws
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.19.5, on macOS 14.4 23E214 darwin-arm64, locale en-IN)
+    • Flutter version 3.19.5 on channel stable at /Users/mobilityintelligencesoftwares/Documents/flutter_2
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 300451adae (6 weeks ago), 2024-03-27 21:54:07 -0500
+    • Engine revision e76c956498
+    • Dart version 3.3.3
+    • DevTools version 2.31.1
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 33.0.2)
+    • Android SDK at /Users/mobilityintelligencesoftwares/Library/Android/sdk
+    • Platform android-34, build-tools 33.0.2
+    • Java binary at: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 17.0.6+0-17.0.6b802.4-9586694)
+    • All Android licenses accepted.
+
+[✓] Xcode - develop for iOS and macOS (Xcode 15.3)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Build 15E204a
+    • CocoaPods version 1.15.2
+
+[✓] Chrome - develop for the web
+    • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[✓] Android Studio (version 2022.2)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 17.0.6+0-17.0.6b802.4-9586694)
+
+[✓] VS Code (version 1.89.0)
+    • VS Code at /Applications/Visual Studio Code.app/Contents
+    • Flutter extension version 3.88.0
+
+[✓] VS Code (version 1.86.1)
+    • VS Code at /Users/mobilityintelligencesoftwares/Library/Caches_bk/com.microsoft.VSCode.ShipIt/update.QMEGtzW/Visual Studio Code.app/Contents
+    • Flutter extension version 3.88.0
+
+[✓] Connected device (4 available)
+    • SM M127G (mobile)        • RZ8T21RF6HT               • android-arm64  • Android 13 (API 33)
+    • Dhilip’s iPhone (mobile) • 00008030-0019284E1150402E • ios            • iOS 17.4.1 21E236
+    • macOS (desktop)          • macos                     • darwin-arm64   • macOS 14.4 23E214 darwin-arm64
+    • Chrome (web)             • chrome                    • web-javascript • Google Chrome 124.0.6367.119
+    ! Error: Browsing on the local area network for Dilip kumar’s Apple Watch. Ensure the device is unlocked and discoverable via Bluetooth. (code -27)
+
+[✓] Network resources
+    • All expected network resources are available.
+
+• No issues found!
+```
